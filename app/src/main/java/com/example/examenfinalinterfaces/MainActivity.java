@@ -26,11 +26,11 @@ public class MainActivity extends AppCompatActivity {
         swipeLayout.setOnRefreshListener(new SwipeRefreshLayout.OnRefreshListener() {
             @Override
             public void onRefresh() {
-                Snackbar snackbar = Snackbar.make(vista, "has subido hacia arriba", Snackbar.LENGTH_SHORT);
+                Snackbar snackbar = Snackbar.make(vista, "Estas recargando", Snackbar.LENGTH_SHORT);
                 snackbar.setAction("pulsa", new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
-                        Toast.makeText(getApplicationContext(), "Holaaaaaaaa!", Toast.LENGTH_LONG).show();
+                        Toast.makeText(getApplicationContext(), "Hola!", Toast.LENGTH_LONG).show();
                     }
                 });
                 snackbar.show();

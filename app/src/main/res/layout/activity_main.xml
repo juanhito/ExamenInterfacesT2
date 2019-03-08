@@ -85,12 +85,25 @@
 
             <Button
                 android:id="@+id/bt_leave"
-                style="@style/bt_leave"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_marginLeft="5dp"
+                android:layout_weight="1"
+                android:background="@color/primary"
+                android:textColor="@color/primary"
                 android:text="Leave" />
 
             <Button
                 android:id="@+id/btn_update"
-                style="@style/btn_Stay"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_marginLeft="5dp"
+                android:layout_weight="1"
+                android:background="@color/primary"
+                android:textColor="@color/primary"
+
+
+
                 android:text="Stay" />
 
         </LinearLayout>

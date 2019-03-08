@@ -19,7 +19,7 @@ public class ExampleInstrumentedTest extends ActivityInstrumentationTestCase2<Lo
     protected void setUp() throws Exception {
         super.setUp();
         LoginActivity actividad = getActivity();
-        mloginbutton = actividad.findViewById(R.id.boton);
+        mloginbutton = actividad.findViewById(R.id.botonLogin);
 
     }
 
